@@ -1,0 +1,285 @@
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  color: $fg-color;
+  background-color: $bg-color;
+  font-family: $text-font-family;
+  font-size: 2.2em;
+  font-weight: 300;
+  line-height: 1.5em;
+  letter-spacing: 0.5px;
+  @media only screen and (max-width: 768px) {
+    font-size: 1.8em;
+    line-height: 1.6em;
+  }
+}
+
+a {
+  font-weight: 300;
+  // color: $link-color;
+  text-decoration: none;
+  font-weight: bold;
+  
+  background: -webkit-linear-gradient(45deg, #6f47ed, #34c3d6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  &:focus,
+  &:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+  }
+}
+
+#button {
+  text-align: center;
+  font-family: $heading-font-family;
+  height: 50px;
+  width: auto;
+  background: blue;
+  color: white;
+}
+
+.cl-effect-4::after {
+  position: absolute;
+  top: calc(100% + 3px);
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.5);
+  content: "";
+  opacity: 0;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+  transform: translateY(10px);
+}
+.cl-effect-4:hover::after,
+.cl-effect-4:focus::after {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  transform: translateY(0px);
+}
+
+p {
+  margin: 2rem 0 2rem 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font-family;
+  font-weight: 700;
+  color: $alt-fg-color;
+  margin: 6.4rem 0 3.2rem 0;
+}
+
+h1 {
+  font-size: 4.2rem;
+  line-height: 4.6rem;
+  @media only screen and (max-width: 768px) {
+    font-size: 3rem;
+    line-height: 3.4rem;
+  }
+}
+h2 {
+  font-size: 2.8rem;
+  line-height: 3.2rem;
+  @media only screen and (max-width: 768px) {
+    font-size: 2.6rem;
+    line-height: 3rem;
+  }
+}
+h3 {
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  @media only screen and (max-width: 768px) {
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+  }
+}
+h4 {
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  @media only screen and (max-width: 768px) {
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+}
+h5 {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  @media only screen and (max-width: 768px) {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+}
+h6 {
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  @media only screen and (max-width: 768px) {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+.highlight > div,
+.highlight > pre {
+  margin: 0 0 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+pre {
+  display: block;
+  font-family: $code-font-family;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  overflow-x: auto;
+  margin: 0;
+  code {
+    display: inline-block;
+    background-color: inherit;
+    color: inherit;
+  }
+}
+
+code {
+  font-family: $code-font-family;
+  font-size: 1.6rem;
+  font-weight: 400;
+  background-color: $alt-bg-color;
+  color: $fg-color;
+}
+
+blockquote {
+  border-left: 2px solid $alt-bg-color;
+  padding-left: 2rem;
+  line-height: 2.2rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
+th,
+td {
+  padding: 1.6rem;
+}
+table {
+  border-collapse: collapse;
+}
+table td,
+table th {
+  border: 2px solid $alt-fg-color;
+}
+table tr:first-child th {
+  border-top: 0;
+}
+table tr:last-child td {
+  border-bottom: 0;
+}
+table tr td:first-child,
+table tr th:first-child {
+  border-left: 0;
+}
+table tr td:last-child,
+table tr th:last-child {
+  border-right: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  background: $bg-color;
+}
+
+.home-bg {
+  background: linear-gradient(
+    45deg,
+    rgb(111, 71, 237) 0%,
+    rgb(111, 71, 237) 21%,
+    rgb(101, 92, 233) 21%,
+    rgb(101, 92, 233) 30%,
+    rgb(91, 112, 229) 30%,
+    rgb(91, 112, 229) 35%,
+    rgb(82, 133, 226) 35%,
+    rgb(82, 133, 226) 51%,
+    rgb(72, 154, 222) 51%,
+    rgb(72, 154, 222) 72%,
+    rgb(62, 174, 218) 72%,
+    rgb(62, 174, 218) 81%,
+    rgb(52, 195, 214) 81%,
+    rgb(52, 195, 214) 100%
+  );
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 90rem;
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.fab {
+  font-weight: 400;
+  -webkit-text-fill-color: white;
+}
+
+.fas {
+  font-weight: 300;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+// .fab {
+//   font-weight: 400;
+// }
+
+// .fas {
+//   font-weight: 300;
+// }
+
+img.emoji {
+  height: 1em;
+  width: 1em;
+  margin: 0 0.05em 0 0.1em;
+  vertical-align: -0.1em;
+}
