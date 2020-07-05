@@ -3,7 +3,7 @@ title = "About me"
 slug = "about"
 +++
 
-Hello! I'm a third year Computer Science student studying at the University of Edinburgh. My passions include graphic design, UI/UX design and web development. If you're a recruiter looking for a quick overview then you can check out my cv [here](/Ryan-Schuller-CV.pdf).
+Hello! I'm a Computer Science student studying at the University of Edinburgh. My passions include graphic design, UI/UX design and web development. If you're a recruiter looking for a quick overview then you can check out my cv [here](/Ryan-Schuller-CV.pdf).
 
 <!-- I'm the current Graphic Designer at [CompSoc Edinburgh](https://comp-soc.com/). -->
 
