@@ -8,8 +8,8 @@ Kesson Consultancy is a software contractor working on long & short term project
 
 I designed a logo for them:
 
-![SIGWeb logo](/kesson/logo.png)
+![Kesson logo](/kesson/logo.png)
 
-![SIGWeb logo](/kesson/fav.png)
+![Kesson favicon](/kesson/fav.png)
 
-![SIGWeb logo](/kesson/options.png)
+![Kesson ideas](/kesson/options.png)
