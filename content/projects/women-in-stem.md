@@ -1,5 +1,5 @@
 ---
-title: "Women In STEM Society"
+title: "Women in STEM Society"
 date: 2019-10-22
 draft: false
 ---

@@ -11,3 +11,9 @@ I was asked to design a logo and event banners for them:
 ![WiSTEM Connect logo](/connect/logo.png)
 
 ![WiSTEM Connect event 1](/connect/event-1.png)
+
+![WiSTEM Connect event 2](/connect/event-2.png)
+
+![WiSTEM Connect event 2 bios](/connect/event-2-bios.png)
+
+![WiSTEM Connect event 3](/connect/event-3.png)
