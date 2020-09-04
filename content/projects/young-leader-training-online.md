@@ -3,7 +3,7 @@ title: "Young Leader Training Online"
 date: 2020-05-14
 draft: false
 live: "https://youngleadertraining.online"
-source: ""
+source: "https://github.com/RyanT5/yl-training"
 ---
 
 This is a website to support young leaders to continue training during social distancing.
