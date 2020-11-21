@@ -1,7 +1,7 @@
 ---
 title: "BioEng Society"
 date: 2020-02-12
-draft: false
+draft: true
 ---
 
 The University of Edinburgh BioEngineering Society aims to support research for all students who are interested in the field.
