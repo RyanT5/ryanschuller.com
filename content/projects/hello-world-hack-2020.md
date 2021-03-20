@@ -4,7 +4,7 @@ date: 2020-02-08
 draft: false
 ---
 
-Hello World Hack is a beginner friendly hackathon organised by Edinburgh University Women in STEM and the Programming Society.
+Hello World Hack is a beginner friendly hackathon organised by [Edinburgh University Women in STEM](https://www.euwistem.com/) and [Edinburgh University Programming Society](https://ediprogsoc.co.uk/).
 
 I designed the logo and merch for the event:
 
