@@ -2,6 +2,7 @@
 title: "Hello World Hack 2019"
 date: 2019-03-20
 draft: false
+cover: "/thumbnails/hwh-2019.png"
 ---
 
 Hello World Hack is a beginner friendly hackathon organised by [Edinburgh University Women in STEM](https://www.euwistem.com/) and [Edinburgh University Programming Society](https://ediprogsoc.co.uk/).

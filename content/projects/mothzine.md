@@ -2,6 +2,7 @@
 title: "Mothzine"
 date: 2020-06-24
 draft: false
+cover: "/thumbnails/moth.png"
 live: "https://mothzine.com"
 source: "https://github.com/RyanT5/mothzine"
 ---

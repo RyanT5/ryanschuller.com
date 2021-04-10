@@ -2,6 +2,7 @@
 title: "Women in STEM Connect"
 date: 2020-07-02
 draft: false
+cover: "/connect/logo.png"
 ---
 
 Women in STEM Connect is a series of virtual events for Women in STEM around the world to inspire, motivate and learn from each other.

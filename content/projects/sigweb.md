@@ -2,6 +2,7 @@
 title: "SIGWeb"
 date: 2019-04-02
 draft: false
+cover: "/thumbnails/sigweb.png"
 ---
 
 SIGWeb is a Special Interest Group of CompSoc, centered around web technologies.

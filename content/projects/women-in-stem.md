@@ -2,6 +2,7 @@
 title: "Women in STEM Society"
 date: 2019-10-22
 draft: false
+cover: "/thumbnails/euwistem.png"
 ---
 
 [Edinburgh University Women in STEM Society](https://www.euwistem.com/) is focused on promoting equality in the fields of Science, Technology, Engineering and Maths. The society hopes to inspire and encourage students through meeting and engaging with a wide variety of successful individuals, allowing for networking and opportunities.

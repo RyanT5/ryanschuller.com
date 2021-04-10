@@ -2,6 +2,7 @@
 title: "Hello World Hack 2021"
 date: 2021-02-12
 draft: false
+cover: "/thumbnails/hwh-2021.png"
 live: "https://helloworldhack.com"
 ---
 

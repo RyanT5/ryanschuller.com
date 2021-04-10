@@ -2,6 +2,7 @@
 title: "Young Leader Training Online"
 date: 2020-05-14
 draft: false
+cover: "/thumbnails/yl-logo.jpg"
 live: "https://youngleadertraining.online"
 source: "https://github.com/RyanT5/yl-training"
 ---

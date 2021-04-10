@@ -16,8 +16,8 @@ disqusShortname = "yourdiscussshortname"
 [params]
     author = "Ryan Schuller"
     info = "Graphic Designer & Web Developer"
-    description = "A website telling the story of Ryan Schuller"
-    keywords = "blog,developer,personal"
+    description = "Graphic Designer & Web Developer based in Edinburgh."
+    keywords = "blog,developer,personal,graphic,design,web"
     avatarurl = "ryan.jpeg"
 
     #favicon_32 = "/img/favicon-32x32.png"

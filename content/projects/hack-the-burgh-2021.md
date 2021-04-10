@@ -2,6 +2,7 @@
 title: "Hack the Burgh VII"
 date: 2021-03-06
 draft: false
+cover: "/thumbnails/hack-the-burgh.png"
 live: "https://2021.hacktheburgh.com"
 ---
 

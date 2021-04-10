@@ -2,6 +2,7 @@
 title: "Prosper Social Finance"
 date: 2020-08-22
 draft: false
+cover: "/thumbnails/prosper.png"
 live: "https://prospersocialfinance.co.uk"
 source: "https://github.com/RyanT5/prosper-website"
 ---
