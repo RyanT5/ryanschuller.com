@@ -106,6 +106,9 @@
       margin-right: 3rem;
       width: 45%;
       float: left;
+      &:hover .proj-cover {
+        transform: scale(1.08);
+      }
       @media only screen and (max-width: 768px) {
         margin: 1.6rem 0 1.6rem 0;
         width: 100%;
@@ -113,6 +116,7 @@
       .proj-cover {
         z-index: -1;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        transition: transform .2s;
       }
       .proj-info {
         background-color: white;

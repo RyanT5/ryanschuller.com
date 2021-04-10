@@ -20,18 +20,11 @@ disqusShortname = "yourdiscussshortname"
     keywords = "blog,developer,personal,graphic,design,web"
     avatarurl = "ryan.jpeg"
 
-    #favicon_32 = "/img/favicon-32x32.png"
-    #favicon_16 = "/img/favicon-16x16.png"
-
-    #footercontent = "Enter a text here."
-
     hidecredits = true
     hidecopyright = true
 
     rtl = false
-
     math = true
-    custom_css = ["css/custom.css"]
 
 # Social links
 [[params.social]]
