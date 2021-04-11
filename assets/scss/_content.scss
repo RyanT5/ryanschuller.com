@@ -61,6 +61,16 @@
         .reading-time {
           vertical-align: middle !important;
         }
+        @media only screen and (max-width: 768px) {
+          font-size: 0.9em;
+          margin-top: 25px;
+          .posted-on {
+            display: block;
+          }
+          .reading-time {
+            display: block;
+          }
+        }
       }
       .live-link,
       .source-code {
@@ -68,6 +78,9 @@
         font-weight: 300;
         font-size: 0.8em;
         display: block;
+        @media only screen and (max-width: 768px) {
+          font-size: 0.9em;
+        }
       }
     }
   }

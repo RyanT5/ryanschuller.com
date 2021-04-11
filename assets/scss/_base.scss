@@ -24,15 +24,15 @@ body {
 }
 
 a {
-  font-weight: 300;
-  // color: $link-color;
   text-decoration: none;
   font-weight: bold;
-  
   background: -webkit-linear-gradient(45deg, #6f47ed, #34c3d6);
   -webkit-background-clip: text;
   background-clip: text;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
   -webkit-text-fill-color: transparent;
+  color: transparent;
 
   &:focus,
   &:hover {
