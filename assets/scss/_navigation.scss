@@ -4,9 +4,9 @@
   a,
   span {
     display: inline;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     font-family: $heading-font-family;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 6rem;
     color: white;
     background: none;
@@ -94,9 +94,9 @@
       background: none;
       -webkit-text-fill-color: white;
       @media only screen and (max-width: 768px) {
-      color: #212121;
-      background: none;
-      -webkit-text-fill-color: #212121;
+        color: #212121;
+        background: none;
+        -webkit-text-fill-color: #212121;
       }
     }
     .menu-separator {
