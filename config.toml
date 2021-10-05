@@ -15,9 +15,9 @@ disqusShortname = "yourdiscussshortname"
 
 [params]
     author = "Ryan Schuller"
-    info = "Graphic Designer & Web Developer"
-    description = "Graphic Designer & Web Developer based in Edinburgh."
-    keywords = "blog,developer,personal,graphic,design,web"
+    info = "Software Engineer & Designer"
+    description = "Software Engineer & Designer based in Edinburgh."
+    keywords = "blog,software,developer,engineer,personal,graphic,design,web"
     avatarurl = "ryan.jpeg"
 
     hidecredits = true
