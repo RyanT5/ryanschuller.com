@@ -112,19 +112,22 @@
     margin: 3.2rem 0 3.2rem 0;
     list-style: none;
     padding: 0;
+    display: table-row;
     li {
       font-size: 1.8rem;
       font-family: $heading-font-family;
       margin-bottom: 3rem;
       margin-right: 3rem;
-      width: 45%;
-      float: left;
+      &.project {
+        width: 45%;
+        float: left;
+        @media only screen and (max-width: 768px) {
+          margin: 1.6rem 0 1.6rem 0 !important;
+          width: 100% !important;
+        }
+      }
       &:hover .proj-cover {
         transform: scale(1.08);
-      }
-      @media only screen and (max-width: 768px) {
-        margin: 1.6rem 0 1.6rem 0;
-        width: 100%;
       }
       .proj-cover {
         z-index: -1;

@@ -1,8 +1,8 @@
 <!-- <li style="background-image: url(/hello-world-hack/logo-2019.png);"> -->
-<li>
+<li class="project">
   <a href="{{ .Params.ExternalLink | default .RelPermalink }}">
-  <img class="proj-cover" src="{{ .Params.cover }}" loading="lazy">
-</a>
+    <img class="proj-cover" src="{{ .Params.cover }}" loading="lazy">
+  </a>
   <div class="proj-info">
     <span class="date">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span>
     <a class="title" href="{{ .Params.ExternalLink | default .RelPermalink }}">{{ .Title }}</a>
