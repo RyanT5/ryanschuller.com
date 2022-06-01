@@ -91,9 +91,17 @@
   {{ end }}
 
   <!-- <link rel="icon" type="image/png" href="{{ .Site.Params.favicon_32 | default "/images/favicon-32x32.png" | absURL }}"
-    sizes="32x32">
-  <link rel="icon" type="image/png" href="{{ .Site.Params.favicon_16 | default "/images/favicon-16x16.png" | absURL }}"
-    sizes="16x16"> -->
+    sizes="32x32"> -->
+  <link rel="icon" type="image/png" href="/blue-fav.png" sizes="16x16">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-66N253LCZK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-66N253LCZK');
+  </script>
 
   {{ range .AlternativeOutputFormats -}}
   {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
