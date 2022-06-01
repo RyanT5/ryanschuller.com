@@ -3,7 +3,7 @@ title: "Hello World Hack 2021"
 date: 2021-02-12
 draft: false
 cover: "/thumbnails/hwh-2021.png"
-live: "https://helloworldhack.com"
+# live: "https://helloworldhack.com"
 ---
 
 Hello World Hack is a beginner friendly hackathon organised by [Edinburgh University Women in STEM](https://www.euwistem.com/) and [Edinburgh University Programming Society](https://ediprogsoc.co.uk/). This year the hackathon was virtual due to Covid-19.
