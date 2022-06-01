@@ -109,17 +109,23 @@
 
 .list {
   ul {
-    margin: 3.2rem 0 3.2rem 0;
+    margin: 3.2rem 0 1.2rem 0;
     list-style: none;
     padding: 0;
-    display: table-row;
+    // display: table-row;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    @media only screen and (max-width: 768px) {
+      grid-template-columns: 100% !important;
+    }
     li {
       font-size: 1.8rem;
       font-family: $heading-font-family;
       margin-bottom: 3rem;
-      margin-right: 3rem;
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
       &.project {
-        width: 45%;
+        // width: 45%;
         float: left;
         @media only screen and (max-width: 768px) {
           margin: 1.6rem 0 1.6rem 0 !important;
