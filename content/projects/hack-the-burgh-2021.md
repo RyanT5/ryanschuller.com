@@ -5,6 +5,7 @@ draft: false
 cover: "/thumbnails/hack-the-burgh.png"
 coverAlt: "The Hack the Burgh 2021 logo consisting of a large red VII on a black background. Overlayed on the VII in white text is Hack the followed by Burgh."
 live: "https://2021.hacktheburgh.com"
+source: ""
 ---
 
 Hack the Burgh is one of the largest student-run hackathons in the UK, organised by [CompSoc Edinburgh](https://comp-soc.com). This year the hackathon was virtual due to Covid-19.

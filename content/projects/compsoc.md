@@ -4,6 +4,8 @@ date: 2019-10-16
 draft: false
 cover: "/thumbnails/compsoc.jpg"
 coverAlt: "The CompSoc logo which consists of the word written in a pixel font called Fipps with Comp in black and Soc in red. The background is white."
+live: ""
+source: ""
 ---
 
 I was elected Graphic Desiger at [CompSoc Edinburgh](https://comp-soc.com/) in October 2019. As part of the position I am responsible for the creation of art, logos, and other designs required by the society for events, merchandise and other promotional material.

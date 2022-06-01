@@ -4,7 +4,6 @@ date: 2020-06-24
 draft: false
 cover: "/thumbnails/moth.png"
 coverAlt: "A top-down pen and watercolour drawing of a brown moth spreading its wings on a cream background."
-live: "https://youngleadertraining.online"
 live: "https://mothzine.com"
 source: "https://github.com/RyanT5/mothzine"
 ---
