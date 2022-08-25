@@ -3,7 +3,7 @@ title: "Bedlam Theatre"
 date: 2018-11-21
 draft: false
 cover: "/thumbnails/bedlam.png"
-coverAlt: "The Real Inspector Hound by Tom Stoppard in a white typewriter font on a red background next to an abstract depiction of the inpector showing only a top hat, monocle, mustache and tie."
+coverAlt: "The Real Inspector Hound by Tom Stoppard in a white typewriter font on a red background next to an abstract depiction of the inspector showing only a top hat, monocle, moustache and tie."
 live: ""
 source: ""
 ---

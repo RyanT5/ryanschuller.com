@@ -3,7 +3,7 @@ title: "Young Leader Training Online"
 date: 2020-05-14
 draft: false
 cover: "/thumbnails/yl-logo.jpg"
-coverAlt: "The Young Leader logo consisting of a brown and dark green upward facing acorn inside a light green diamond with a purple border. The acorn has a dark green leaf on either side of it inside the diamond and the diamond is surrounded by five light green vines around the outside which also have light green leaves at regualar itervals on a dark blue background."
+coverAlt: "The Young Leader logo consisting of a brown and dark green upward-facing acorn inside a light green diamond with a purple border. The acorn has a dark green leaf on either side of it inside the diamond and the diamond is surrounded by five light green vines around the outside which also have light green leaves at regular intervals on a dark blue background."
 live: "https://youngleadertraining.online"
 source: "https://github.com/RyanT5/yl-training"
 ---

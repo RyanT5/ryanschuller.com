@@ -3,7 +3,7 @@ title: "Women in STEM Society"
 date: 2019-10-22
 draft: false
 cover: "/thumbnails/euwistem.png"
-coverAlt: "The Edinburgh University Women in Stem Society logo text which consists of white block capital letters EUW followed by a smaller lowercase in above two teal vertical lines followed by red block capitals STEM. The background is dark blue and has a repeating alternating pattern of white icons fading out on the left and right featuring a computer screen, an atom, a round-bottom chemistry flask, a calculator and a microscope."
+coverAlt: "The Edinburgh University Women in Stem Society logo text which consists of white block capital letters EUW followed by a smaller lowercase in above two vertical teal lines followed by red block capitals STEM. The background is dark blue and has a repeating alternating pattern of white icons fading out on the left and right featuring a computer screen, an atom, a round-bottom chemistry flask, a calculator and a microscope."
 live: ""
 source: ""
 ---

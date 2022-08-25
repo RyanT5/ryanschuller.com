@@ -3,7 +3,7 @@ title: "CompSoc"
 date: 2019-10-16
 draft: false
 cover: "/thumbnails/compsoc.jpg"
-coverAlt: "The CompSoc logo which consists of the word written in a pixel font called Fipps with Comp in black and Soc in red. The background is white."
+coverAlt: "The CompSoc logo which consists of the word written in a pixel font called Fipps with Comp in black and Soc in red on a white background."
 live: ""
 source: ""
 ---

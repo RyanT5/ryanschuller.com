@@ -3,7 +3,7 @@ title: "Hello World Hack 2021"
 date: 2021-02-12
 draft: false
 cover: "/thumbnails/hwh-2021.png"
-coverAlt: "The Hello World Hack 2021 logo consisting of a red filled circle containing two horizontal line cutouts curved down the way with yellow diamond vertically wrapping it with the right point in front. The circle also has two yellow arrows on the left and right pointing away from it. Below the logo it says Hello World in red text and Hack in yellow text. The background is dark blue."
+coverAlt: "The Hello World Hack 2021 logo consisting of a solid red circle containing two horizontal line cutouts curved down the way with a yellow diamond vertically wrapping it with the right point in front. The circle also has two yellow arrows on the left and right pointing away from it. Below the logo, it says Hello World in red text and Hack in yellow text. The background is dark blue."
 live: ""
 source: ""
 ---
