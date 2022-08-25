@@ -3,7 +3,7 @@ title: "Coeus Energy"
 date: 2021-05-18
 draft: false
 cover: "/thumbnails/coeus.png"
-coverAlt: "The Coeus Energy logo consisting of a lowercase E with a horiontal green to blue gradient next to the green text Coeus Energy. To the right of the logo is an image of the Earth from space with a few cities lit up."
+coverAlt: "The Coeus Energy logo consisting of a lowercase E with a horizontal green to blue gradient next to green text reading Coeus Energy. To the right of the logo is an image of the Earth from space with a few cities lit up."
 live: ""
 source: ""
 ---
