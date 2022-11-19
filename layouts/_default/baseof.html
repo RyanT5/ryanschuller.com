@@ -21,7 +21,16 @@
   {{ if .Permalink }}
   <base href="{{ .Permalink }}">
   {{ end }}
-  <title>{{ .Site.Title }}</title>
+
+  <title>
+    {{ if .IsHome }}
+    {{ .Site.Title }}
+    {{ else if .Params.title }}
+    {{ print .Site.Title " | " .Params.title }}
+    {{ else }}
+    {{ print .Site.Title " | " (humanize .Path) }}
+    {{ end }}
+  </title>
 
   {{ if .Permalink }}
   <link rel="canonical" href="{{ .Permalink }}">
