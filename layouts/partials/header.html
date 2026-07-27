@@ -4,10 +4,20 @@
   <nav class="home-bg navigation">
     {{ end }}
     <section class="container">
-      <a class="navigation-title" href="{{ .Site.BaseURL | relLangURL }}">
-        {{ .Site.Title }}
-      </a>
-      {{ if or .Site.Menus.main .Site.IsMultiLingual }}
+      {{ if .IsHome }}
+      <span class="navigation-title">
+        Welcome to my site!
+      </span>
+      {{ else }}
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a class="cl-effect-3 navigation-title" href="{{ .Site.BaseURL | relLangURL }}">
+            {{ .Site.Title }}
+          </a>
+        </li>
+      </ul>
+      {{ end }}
+      {{ if .Site.Menus.main }}
       <input type="checkbox" id="menu-toggle" />
       <label class="menu-button float-right" for="menu-toggle"><i class="fa fa-bars"></i></label>
       <ul class="navigation-list">
@@ -16,23 +26,6 @@
         <li class="navigation-item">
           <a class="cl-effect-3 navigation-link" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
         </li>
-        {{ end }}
-        {{ end }}
-        {{ if .Site.IsMultiLingual }}
-        {{ $node := . }}
-        {{ .Scratch.Set "separator" true }}
-        {{ range (default .Site.Home.AllTranslations .Translations) }}
-        {{ if ne $.Site.Language .Language }}
-        {{ if $node.Scratch.Get "separator" }}
-        <li class="navigation-item menu-separator">
-          <span>|</span>
-        </li>
-        {{ $node.Scratch.Set "separator" false }}
-        {{ end }}
-        <li class="navigation-item">
-          <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
-        </li>
-        {{ end }}
         {{ end }}
         {{ end }}
       </ul>

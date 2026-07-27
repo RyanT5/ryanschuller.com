@@ -3,6 +3,6 @@ title = "About me"
 slug = "about"
 +++
 
-Hello! I'm a Serverless Developer building event-driven cloud architectures at [aleios](https://aleios.com). Outside of that I also build web apps, design logos and craft user interfaces. If you're a recruiter looking for a quick overview then you can [check out my CV](/Ryan_Schuller_CV.pdf).
+Hello! I’m a software engineer based in London currently building cloud communications infrastructure at Motorola Solutions. Outside of that I also build web apps, design logos and craft user interfaces. Away from my computer you can probably find me hiking up a hill, browsing in a museum or frolicking at a castle.
 
 If you want to work together or just want to say hi then you can contact me at [ryanschuller@gmail.com](mailto:ryanschuller@gmail.com)

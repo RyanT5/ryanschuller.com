@@ -24,13 +24,13 @@
         {{ if .Params.live }}
         <span class="live-link">
           <i class="fa fa-link"></i>
-          <a href="{{ .Params.live }}">{{ .Params.live }}</a>
+          <a href="{{ .Params.live }}" target="_blank">{{ .Params.live }}</a>
         </span>
         {{ end }}
         {{ if .Params.source }}
         <span class="source-code">
           <i class="fab fa-github" style="-webkit-text-fill-color: #212121;"></i>
-          <a href="{{ .Params.source }}">See source code</a>
+          <a href="{{ .Params.source }}" target="_blank">See source code</a>
         </span>
         {{ end }}
 
@@ -46,10 +46,8 @@
       {{ .Content }}
     </div>
 
-
     <!-- <footer>
         {{ partial "posts/series.html" . }}
-        {{ partial "posts/disqus.html" . }}
         {{ partial "posts/commento.html" . }}
         {{ partial "posts/utterances.html" . }}
       </footer> -->

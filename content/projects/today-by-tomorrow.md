@@ -4,8 +4,8 @@ date: 2022-08-25
 draft: false
 cover: "/thumbnails/today-by-tomorrow.png"
 coverAlt: "A 6 by 6 grid of green dots with white ticks in them on a white background. Some of the dots are orange and have an orange arrow pointing to another dot that is blue. In the centre is the green text Today by Tomorrow."
-live: "https://todaybytomorrow.com"
-source: ""
+live: ""
+source: "https://github.com/RyanT5/todaybytomorrow"
 ---
 
 ![Four white rectangles containing an orange dot pointing to a blue dot arranged from top left to bottom right followed by a white square containing a green dot with a tick. In the top right is big white text reading 4 days procrastinated on a green background.](/today-by-tomorrow/today-by-tomorrow-cover.png)

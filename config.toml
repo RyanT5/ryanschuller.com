@@ -1,24 +1,16 @@
 baseurl = "/"
 title = "Ryan Schuller"
 theme = "hugo-coder"
-languagecode = "en"
-defaultcontentlanguage = "en"
 
-paginate = 8
-canonifyurls = true
-
-pygmentsstyle = "bw"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
-
-disqusShortname = "yourdiscussshortname"
+[pagination]
+pagerSize = 8
 
 [params]
     author = "Ryan Schuller"
     info = "Software Engineer & Designer"
     description = "Software Engineer & Designer based in London."
     keywords = "blog,software,developer,engineer,personal,graphic,design,web"
-    avatarurl = "ryan.jpeg"
+    avatarurl = "ryan-2.jpg"
 
     hidecredits = true
     hidecopyright = true
@@ -37,11 +29,11 @@ disqusShortname = "yourdiscussshortname"
     icon = "fab fa-linkedin"
     weight = 2
     url = "https://www.linkedin.com/in/ryan-schuller/"
-[[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter"
-    weight = 3
-    url = "https://twitter.com/_ryanschuller"
+# [[params.social]]
+#     name = "Twitter"
+#     icon = "fab fa-twitter"
+#     weight = 3
+#     url = "https://twitter.com/_ryanschuller"
 #[[params.social]]
 #    name = "LinkedIn"
 #    icon = "fab fa-dribbble"
@@ -62,10 +54,10 @@ disqusShortname = "yourdiscussshortname"
     name = "Projects"
     weight = 2
     url = "/projects/"
-#[[menu.main]]
-#    name = "Practice"
-#    weight = 3
-#    url = "/practice/"
+[[menu.main]]
+   name = "Practice"
+   weight = 3
+   url = "/practice/"
 #[[menu.main]]
 #    name = "Blog"
 #    weight = 3

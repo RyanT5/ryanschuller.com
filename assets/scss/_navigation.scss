@@ -1,6 +1,12 @@
 .navigation {
   height: 6rem;
   width: 100%;
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
   a,
   span {
     display: inline;
@@ -47,14 +53,13 @@
   }
   .navigation-title {
     letter-spacing: 0.1rem;
-    text-transform: uppercase;
     color: white;
   }
   .navigation-list {
-    float: right;
     list-style: none;
     margin-bottom: 0;
     margin-top: 0;
+    padding: 0;
     @media only screen and (max-width: 768px) {
       position: absolute;
       top: 6rem;
