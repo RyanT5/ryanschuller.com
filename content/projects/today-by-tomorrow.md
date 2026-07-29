@@ -4,7 +4,7 @@ date: 2022-08-25
 draft: false
 cover: "/thumbnails/today-by-tomorrow.png"
 coverAlt: "A 6 by 6 grid of green dots with white ticks in them on a white background. Some of the dots are orange and have an orange arrow pointing to another dot that is blue. In the centre is the green text Today by Tomorrow."
-live: ""
+live: "https://todaybytomorrow.ryanschuller.com"
 source: "https://github.com/RyanT5/todaybytomorrow"
 ---
 
