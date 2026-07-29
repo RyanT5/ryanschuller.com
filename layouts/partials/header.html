@@ -9,6 +9,9 @@
         Welcome to my site!
       </span>
       {{ else }}
+      <a class="mobile-navigation-title" href="{{ .Site.BaseURL | relLangURL }}">
+        {{ .Site.Title }}
+      </a>
       <ul class="navigation-list">
         <li class="navigation-item">
           <a class="cl-effect-3 navigation-title" href="{{ .Site.BaseURL | relLangURL }}">
